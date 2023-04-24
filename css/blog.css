@@ -1,18 +1,15 @@
 :root {
-  --jet: #303136;
-  --charcoal: #46474F;
-  --black-coral: #5C5D67;
-  --gainsboro: #DFDFE2;
-  --cultured: #F4F4F5;
-  --opal: #95B2B0;
-  --tea-green: #C6EBBE;
-  --yellow-orange: #FFB140;
-  /* placeholders... get real colors */
-  --url: #000;
-  --url-hover: #000;
-  --blockquote: #000;
-  --body-bg: #fff;
-  --body-txt: #000;
+  --bg-shadow: #060606;
+  --primary-shadow: #482828;
+  --primary: #CB2929;
+  --primary-rich: #8c0619;
+  --primary-muted: #995154;
+  --bg: #242424;
+  --txt: #DFDFE2;
+  --txt-shadow: #848585;
+  --url: #CB2929;
+  --url-hover: #8c0619;
+  --blockquote: #848585;
 }
 
 /* Container padding*/
@@ -41,18 +38,18 @@
 
 /* Main style */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", sans-serif;
   line-height: 1.7;
   font-size: 16px;
-  color: var(--body-txt);
+  color: var(--txt);
   overflow-x: hidden;
-  background-color: var(--body-bg);
+  background-color: var(--bg);
 }
 p {
   margin: 30px 0;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", sans-serif;
   line-height: 1.7;
   line-height: 1.1;
   font-weight: bold;
