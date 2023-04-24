@@ -1,0 +1,16 @@
+{
+    "name": "Dual Power Gathering Midwest",
+    "short_name": "DPG Midwest",
+    "description": "Dual Power Gathering",
+    "icons": [{
+      "src": "icons/glmidwest.png",
+      "sizes": "348x348",
+      "type": "image/png"
+    }],
+    "background_color": "#000",
+    "theme_color": "#000",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
+  

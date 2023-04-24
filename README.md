@@ -1,1 +1,0 @@
-# dpgmidwest.github.io

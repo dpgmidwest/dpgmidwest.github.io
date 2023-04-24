@@ -1,0 +1,25 @@
+title: Dual Power Gathering Midwest
+header-img: https://placehold.co/600x200.png
+logo: ../img/glmidwest.png
+SEOTitle: "Dual Power Gathering Midwest"
+description: "SEO description"
+url: "http://www.dpgmidwest.org"
+github_repo: "https://github.com/dpgmidwest/dpgmidwest.github.io"
+masked_email: "convert email to html codes here"
+masked_delim_email: "same sonverted email but with intermingled comments"
+featured-tags: False
+featured-condition-size: 100
+baseurl: ""
+RSS: true
+github_username: dpgmidwest
+permalink: pretty
+paginate: 3
+paginate_path: "/:num/"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: false
+plugins: [jekyll-paginate, jekyll-seo-tag]
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+chrome-tab-theme-color: "#000000"
