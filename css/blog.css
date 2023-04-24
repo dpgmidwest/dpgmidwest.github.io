@@ -39,6 +39,60 @@
   display: inline;
 }
 
+/* Navbar */
+nav {
+  position: relative;
+  white-space: nowrap;
+  background: var(--bg-shadow);
+  padding: 0;
+  margin: 2em 0;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
+	font-family: Helvetica, sans-serif;
+	display: flex;
+}
+
+nav .brand {
+	display: inline-block;
+  z-index: 10;
+  width: 20%;
+  padding: 2em 0;
+	margin: 0;
+  text-align: center;
+	color: var(--txt);
+	text-decoration: none;
+	weight: 600;
+	fontsize: 24px;
+}
+
+nav img {
+	display: inline-block;
+  z-index: 10;
+  width: 50px;
+	height: 50px;
+/*   padding: 2em 0; */
+	margin: 15px;
+}
+
+nav a {
+  display: inline-block;
+  z-index: 10;
+  width: 10%;
+  padding: 2em 0;
+	margin: 0;
+  text-align: center;
+  cursor: pointer;
+	color: var(--txt);
+	text-decoration: none;
+	weight: 600;
+	fontsize: 24px;
+}
+
+nav a:hover {
+	background-color: var(--primary-rich);
+	color: var(--txt);
+	transition: var(--transition-duration)
+}
+
 /* Main style */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", sans-serif;

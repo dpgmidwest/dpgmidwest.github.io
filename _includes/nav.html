@@ -1,11 +1,9 @@
 <!-- Navigation -->
-<nav class="navMenu">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        <a href="{{ site.baseurl }}/">Home</a>
-        {% for page in site.pages %}{% if page.nav %}
-        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}{% endfor %}
-        <div class="dot"></div>
-    </div>
+<nav>
+    <img>
+    <p class="brand">{{ site.title }}</p>
+    <a href="{{ site.baseurl }}/">Home</a>
+    {% for page in site.pages %}{% if page.nav %}
+    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% endif %}{% endfor %}
 </nav>
