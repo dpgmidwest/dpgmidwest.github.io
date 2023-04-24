@@ -15,10 +15,8 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/bootstrap.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/blog.css" | prepend: site.baseurl }}">
-
-    <!-- TODO: We don't want these... replace before launch with more secure alternatives -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ "/css/fontawesome.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
     css'>
 </head>
