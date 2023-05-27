@@ -7,8 +7,9 @@ title: "Home"
         <h1 class="u-align-center u-text u-home-text-1">updates</h1>
     </div>
 </section>
-  <section class="u-clearfix u-valign-middle u-home-section-5">
-    {% for post in paginator.posts %}
+<section class="u-clearfix u-valign-middle u-home-section-5">
+  {% for post in paginator.posts %}
+  {% if post.status == "published"}
     <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
       <div class="u-layout">
         <div class="u-layout-row">
@@ -17,18 +18,19 @@ title: "Home"
           </div>
           <div class="u-align-left u-container-style u-layout-cell u-size-30 u-home-layout-cell-2">
             <div class="u-container-layout u-container-layout-2">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <h2 class="u-text u-home-text-1">{{ post.title }}</h2>
-                </a>
-                <p class="u-text u-home-text-2">Posted on {{ post.date | date: "%B %-d, %Y" }} </p>
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                  <h2 class="u-text u-home-text-1">{{ post.title }}</h2>
+              </a>
+              <p class="u-text u-home-text-2">Posted on {{ post.date | date: "%B %-d, %Y" }} </p>
               <p class="u-text u-home-text-3">{{ post.content | strip_html | truncate:200 }}</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    {% endfor %}
-  </section>
-  {% if psize == 0 %} 
-    <p>No updates yet</p>
   {% endif %}
+  {% endfor %}
+</section>
+{% if site.posts.size == 0 %} 
+  <p>No updates yet</p>
+{% endif %}
