@@ -15,9 +15,12 @@
     <meta name="theme-color" content="#bf404c">
     <meta property="og:title" content="{% if page.tabTitle %}{{ page.tabTitle }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.SEOTitle }}{% endif %}{% endif %}">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_EN">
+    <meta property="og:image" content="{{ site.card_image | prepend: site.baseurl }}">
+    <meta name="robots" content="noindex, nofollow"/> <!-- Can remove, but disallowing indexing for now until we decide on what to do -->
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ site.favicon }}">
+    <link rel="icon" type="image/x-icon" href="{{ site.favicon | prepend: site.baseurl }}">
     
     <!-- Styles -->
     <link rel="stylesheet" href="{{ "/css/stylesheet.css" | prepend: site.baseurl }}">
