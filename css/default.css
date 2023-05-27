@@ -766,3 +766,35 @@ h1#u-nav-text-2 {
     grid-row: 3;
   }
 }
+
+.u-menu-orient {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 100vw;
+  padding: 10px;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+@media (max-width: 486px) {
+  .menu-item {
+    text-align: center;
+    padding: 6px;
+    font-weight: 700;
+  }
+  .u-menu-orient {
+    display: grid;
+    grid-template-rows: repeat(4,40px);
+    width: 100vw;
+    padding: 10px;
+  }
+  .u-home-section-2 .u-home-text-1 {
+    font-size: 1.5rem;
+    margin: 60px 0 60px 0;
+  }
+  .u-home-section-2 .u-home-sheet-1 {
+      min-height: 700px;
+  }
+}
