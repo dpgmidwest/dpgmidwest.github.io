@@ -1,3 +1,5 @@
+/******* Begin 404.html Custom CSS ********/
+
 .u-pnf-section-1 {
   background-image: url("../images/leung-jason-unsplash-filtered.png");
   background-position: 50% 50%;
@@ -13,29 +15,7 @@
   margin: 187px auto 60px;
 }
 
-/* @media (max-width: 1199px) {
-  .u-pnf-section-1 .u-pnf-sheet-1 {
-    min-height: 439px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-pnf-section-1 .u-pnf-sheet-1 {
-    min-height: 336px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-pnf-section-1 .u-pnf-sheet-1 {
-    min-height: 252px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-pnf-section-1 .u-pnf-sheet-1 {
-    min-height: 159px;
-  }
-} */
+/******* Begin contact.html Custom CSS ********/
 
 .u-contact-section-1 .u-contact-sheet-1 {
   min-height: 400px;
@@ -50,6 +30,8 @@
   font-size: 1.125rem;
   padding: 0;
 }
+
+/******* Begin contribute.html Custom CSS ********/
 
 .u-contr-section-1 {
   background-image: none;
@@ -68,33 +50,7 @@
   margin: 89px auto 60px;
 }
 
-/* @media (max-width: 1199px) {
-  .u-contr-section-1 .u-contr-text-1 {
-    margin-right: 216px;
-    margin-left: 224px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-contr-section-1 .u-contr-text-1 {
-    margin-right: 106px;
-    margin-left: 114px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-contr-section-1 .u-contr-text-1 {
-    margin-right: 16px;
-    margin-left: 24px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-contr-section-1 .u-contr-text-1 {
-    margin-right: 0;
-    margin-left: 0;
-  }
-} */
+/******* Begin home.html Custom CSS ********/
 
 .u-home-section-1 {
   background-image: none;
@@ -143,88 +99,6 @@
   margin: 60px 0 0;
 }
 
-/* @media (max-width: 1199px) {
-   .u-home-section-1 {
-    min-height: 592px;
-  }
-
-  .u-home-section-1 .u-home-layout-cell-1 {
-    min-height: 435px;
-  }
-} */
-
-/* @media (max-width: 991px) {
-   .u-home-section-1 {
-    min-height: 484px;
-  }
-
-  .u-home-section-1 .u-home-layout-cell-1 {
-    min-height: 100px;
-  }
-
-  .u-home-section-1 .u-home-text-1 {
-    margin-top: -31px;
-  }
-
-  .u-home-section-1 .u-home-text-2 {
-    margin-top: -27px;
-  }
-
-  .u-home-section-1 .u-home-text-3 {
-    margin-top: -8px;
-  }
-
-  .u-home-section-1 .u-home-btn-1 {
-    margin-top: -100px;
-  }
-} */
-
-/* @media (max-width: 767px) {
-   .u-home-section-1 {
-    min-height: 955px;
-  }
-
-  .u-home-section-1 .u-home-layout-wrap-1 {
-    margin-bottom: -142px;
-  }
-
-  .u-home-section-1 .u-home-text-1 {
-    margin-top: -44px;
-  }
-
-  .u-home-section-1 .u-home-text-2 {
-    margin-top: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-
-  .u-home-section-1 .u-home-btn-1 {
-    margin-top: -60px;
-  }
-} */
-
-/* @media (max-width: 575px) {
-   .u-home-section-1 {
-    min-height: 686px;
-  }
-
-  .u-home-section-1 .u-home-layout-wrap-1 {
-    margin-bottom: -397px;
-  }
-
-  .u-home-section-1 .u-home-text-1 {
-    margin-top: -57px;
-  }
-
-  .u-home-section-1 .u-home-text-2 {
-    margin-top: 26px;
-  }
-
-  .u-home-section-1 .u-home-btn-1 {
-    margin-top: -100px;
-  }
-} */
-
 .u-home-section-2 {
   background-image: url("../images/moshed-trees23.png");
   background-position: 50% 50%;
@@ -238,16 +112,6 @@
   font-size: 1.5rem;
   margin: 35px 102px 60px 0;
 }
-
-/* @media (max-width: 1199px) {
-  .u-home-section-2 .u-home-sheet-1 {
-    min-height: 158px;
-  }
-
-  .u-home-section-2 .u-home-text-1 {
-    margin-right: 0;
-  }
-} */
 
 .u-home-section-3 {
   background-image: none;
@@ -284,13 +148,6 @@
   font-size: 1.125rem;
   padding: 0;
 }
-
-/* @media (max-width: 1199px) {
-  .u-home-section-3 .u-home-text-4 {
-    margin-left: 0;
-  }
-} */
-
 
 .u-home-section-4 .u-home-sheet-1 {
   min-height: 92px;
@@ -372,131 +229,8 @@
 .u-home-section-5 .u-home-text-6 {
   margin: 20px 20px 0 0;
 }
-/* 
-@media (max-width: 1199px) {
-   .u-home-section-5 {
-    min-height: 404px;
-  }
 
-  .u-home-section-5 .u-home-layout-wrap-1 {
-    position: relative;
-  }
-
-  .u-home-section-5 .u-home-image-1 {
-    min-height: 202px;
-  }
-
-  .u-home-section-5 .u-home-layout-cell-2 {
-    min-height: 202px;
-  }
-
-  .u-home-section-5 .u-home-text-1 {
-    margin-right: 0;
-  }
-
-  .u-home-section-5 .u-home-text-2 {
-    margin-right: 0;
-  }
-
-  .u-home-section-5 .u-home-text-3 {
-    margin-right: 0;
-  }
-
-  .u-home-section-5 .u-layout-wrap-2 {
-    position: relative;
-    margin-left: initial;
-  }
-
-  .u-home-section-5 .u-home-image-2 {
-    min-height: 202px;
-  }
-
-  .u-home-section-5 .u-home-layout-cell-4 {
-    min-height: 202px;
-  }
-
-  .u-home-section-5 .u-home-text-4 {
-    margin-right: 0;
-  }
-
-  .u-home-section-5 .u-home-text-5 {
-    margin-right: 0;
-  }
-
-  .u-home-section-5 .u-home-text-6 {
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 991px) {
-   .u-home-section-5 {
-    min-height: 310px;
-  }
-
-  .u-home-section-5 .u-home-image-1 {
-    min-height: 155px;
-  }
-
-  .u-home-section-5 .u-home-layout-cell-2 {
-    min-height: 100px;
-  }
-
-  .u-home-section-5 .u-home-image-2 {
-    min-height: 155px;
-  }
-
-  .u-home-section-5 .u-home-layout-cell-4 {
-    min-height: 100px;
-  }
-}
-
-@media (max-width: 767px) {
-   .u-home-section-5 {
-    min-height: 666px;
-  }
-
-  .u-home-section-5 .u-home-image-1 {
-    min-height: 233px;
-  }
-
-  .u-home-section-5 .u-home-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-home-section-5 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-home-section-5 .u-home-image-2 {
-    min-height: 233px;
-  }
-
-  .u-home-section-5 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-home-section-5 .u-container-layout-4 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-   .u-home-section-5 {
-    min-height: 494px;
-  }
-
-  .u-home-section-5 .u-home-image-1 {
-    min-height: 147px;
-  }
-
-  .u-home-section-5 .u-home-image-2 {
-    min-height: 147px;
-  }
-} */
+/******* Begin updates.html Custom CSS ********/
 
 .u-updates-section-1 {
   background-image: none;
@@ -583,130 +317,8 @@
   margin: 20px 20px 0 0;
 }
 
-/* @media (max-width: 1199px) {
-   .u-updates-section-2 {
-    min-height: 404px;
-  }
 
-  .u-updates-section-2 .u-updates-layout-wrap-1 {
-    position: relative;
-  }
-
-  .u-updates-section-2 .u-updates-image-1 {
-    min-height: 202px;
-  }
-
-  .u-updates-section-2 .u-updates-layout-cell-2 {
-    min-height: 202px;
-  }
-
-  .u-updates-section-2 .u-updates-text-1 {
-    margin-right: 0;
-  }
-
-  .u-updates-section-2 .u-updates-text-2 {
-    margin-right: 0;
-  }
-
-  .u-updates-section-2 .u-updates-text-3 {
-    margin-right: 0;
-  }
-
-  .u-updates-section-2 .u-updates-layout-wrap-2 {
-    position: relative;
-    margin-left: initial;
-  }
-
-  .u-updates-section-2 .u-updates-image-2 {
-    min-height: 202px;
-  }
-
-  .u-updates-section-2 .u-updates-layout-cell-4 {
-    min-height: 202px;
-  }
-
-  .u-updates-section-2 .u-updates-text-4 {
-    margin-right: 0;
-  }
-
-  .u-updates-section-2 .u-updates-text-5 {
-    margin-right: 0;
-  }
-
-  .u-updates-section-2 .u-updates-text-6 {
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 991px) {
-   .u-updates-section-2 {
-    min-height: 310px;
-  }
-
-  .u-updates-section-2 .u-updates-image-1 {
-    min-height: 155px;
-  }
-
-  .u-updates-section-2 .u-updates-layout-cell-2 {
-    min-height: 100px;
-  }
-
-  .u-updates-section-2 .u-updates-image-2 {
-    min-height: 155px;
-  }
-
-  .u-updates-section-2 .u-updates-layout-cell-4 {
-    min-height: 100px;
-  }
-}
-
-@media (max-width: 767px) {
-   .u-updates-section-2 {
-    min-height: 666px;
-  }
-
-  .u-updates-section-2 .u-updates-image-1 {
-    min-height: 233px;
-  }
-
-  .u-updates-section-2 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-updates-section-2 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-updates-section-2 .u-updates-image-2 {
-    min-height: 233px;
-  }
-
-  .u-updates-section-2 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-updates-section-2 .u-container-layout-4 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-   .u-updates-section-2 {
-    min-height: 494px;
-  }
-
-  .u-updates-section-2 .u-updates-image-1 {
-    min-height: 147px;
-  }
-
-  .u-updates-section-2 .u-updates-image-2 {
-    min-height: 147px;
-  }
-} */
+/******* Begin nav.html Custom CSS ********/
 
 .u-nav-orient {
   display: grid;
@@ -720,11 +332,11 @@
   align-content: center;
 }
 
-h1#u-nav-text-1 {
+h1#u-nav-text-1 { /* DUAL POWER */
   grid-column: 1;
 }
 
-h1#u-nav-text-2 {
+h1#u-nav-text-2 { /* MIDWEST */
   grid-column: 3;
 }
 
@@ -742,11 +354,21 @@ h1#u-nav-text-2 {
   }
 }
 
+.u-menu-orient {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 100vw;
+  padding: 10px;
+}
+
+.menu-item {
+  text-align: center;
+}
+
 @media (max-width: 575px) {
   .u-nav-orient {
     margin-top: 27px;
     margin-bottom: 27px;
-    /* grid-template-columns: repeat(1, 1fr); */
   }
   .u-nav-orient h1 {
     margin: 0;
@@ -767,17 +389,6 @@ h1#u-nav-text-2 {
   }
 }
 
-.u-menu-orient {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  width: 100vw;
-  padding: 10px;
-}
-
-.menu-item {
-  text-align: center;
-}
-
 @media (max-width: 486px) {
   .menu-item {
     text-align: center;
@@ -786,6 +397,7 @@ h1#u-nav-text-2 {
   }
   .u-menu-orient {
     display: grid;
+    grid-template-columns: 100%;
     grid-template-rows: repeat(4,40px);
     width: 100vw;
     padding: 10px;
