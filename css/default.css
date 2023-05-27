@@ -536,3 +536,22 @@
   margin: 17px auto 0 0;
   padding: 0;
 }
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  min-width: 300px;
+}
+
+td, th {
+  padding: 5px 0;
+}
+
+thead {
+  background-color: black;
+  color: white;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: solid 2px white;
+}
