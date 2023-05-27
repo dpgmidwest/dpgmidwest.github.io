@@ -1,4 +1,6 @@
-{% assign publishedPages = paginator.posts | where:"paginator.posts","published" %}
+{% assign publishedPages = paginator.posts | default: "" | where:"paginator.posts","published" %}
+
+{% if publishedPages %}
 
 {% for post in publishedPages %}
     <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
@@ -20,6 +22,7 @@
         </div>
     </div>
 {% endfor %}
-{% if publishedPages.size == 0 %} 
+
+{% else %}
     <p>No updates yet</p>
 {% endif %}
