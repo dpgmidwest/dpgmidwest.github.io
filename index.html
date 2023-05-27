@@ -2,12 +2,12 @@
 layout: home
 title: "Home"
 ---
-<section class="u-black u-clearfix u-section-4" id="sec-6292">
+<section class="u-black u-clearfix u-section-4">
     <div class="u-clearfix u-sheet u-valign-middle u-home-sheet-1">
         <h1 class="u-align-center u-text u-home-text-1">updates</h1>
     </div>
 </section>
-  <section class="u-clearfix u-valign-middle u-home-section-5" id="sec-4203">
+  <section class="u-clearfix u-valign-middle u-home-section-5">
     {% for post in paginator.posts %}
     <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
       <div class="u-layout">
@@ -32,29 +32,3 @@ title: "Home"
   {% if psize == 0 %} 
     <p>No updates yet</p>
   {% endif %}
-    <!-- Pager
-    {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Prev</a>
-        {% else %}
-            <span>&larr; Prev</span>
-        {% endif %}
-
-        {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-                <p>{{ page }}</p>
-            {% elsif page == 1 %}
-                <a href="{{ '/' | relative_url }}">{{ page }}</a>
-            {% else %}
-                <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-            {% endif %}
-        {% endfor %}
-
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | relative_url }}">Next &rarr;</a>
-        {% else %}
-            <span>Next &rarr;</span>
-        {% endif %}
-    </div>
-    {% endif %} -->
