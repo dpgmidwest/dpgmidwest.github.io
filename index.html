@@ -29,6 +29,9 @@ title: "Home"
     </div>
     {% endfor %}
   </section>
+  {% if psize == 0 %} 
+    <p>No updates yet</p>
+  {% endif %}
     <!-- Pager
     {% if paginator.total_pages > 1 %}
     <div class="pagination">
