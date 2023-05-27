@@ -3,14 +3,18 @@ layout: default
 ---
 <!-- Post Header Image -->
 <style type="text/css">
-    header.intro-header{
+    #header-img {
         position: relative;
-        background-color: black;
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}none{% endif %}')
+        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% endif %}')
     }
 </style>
 
 <!-- Post Header Content -->
+{% if page.header-img %}
+<section id="header-img" class="u-align-left u-black u-clearfix u-blog-section-1">
+    <div class="u-clearfix u-sheet u-blog-sheet-1"></div>
+</section>
+{% endif %}
 <section class="u-align-left u-black u-clearfix u-blog-section-1">
     <div class="u-clearfix u-sheet u-blog-sheet-1">
         <h1 class="u-text u-title u-text-default u-text-palette-5-light-3 u-title u-blog-text-1">{{ page.title }}</h1>
