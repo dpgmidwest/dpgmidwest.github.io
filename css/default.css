@@ -139,6 +139,19 @@
 
 .u-home-section-3 {
   background-image: none;
+  
+}
+
+@media (min-width: 487px) and (max-width: 583px) {
+  .u-home-section-3 {
+    padding-right: 84px;
+  }
+}
+
+@media (min-width: 487px) and (max-width: 650px) {
+  .u-home-section-3 {
+    padding-left: 25px;
+  }
 }
 
 .u-home-section-3 .u-home-sheet-1 {
