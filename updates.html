@@ -12,10 +12,10 @@ permalink: /updates.html
 </section>
 
 <section class="u-clearfix u-valign-middle u-updates-section-2">
-  {% assign psize = site.posts | size %}
-  {% if psize == 0 %} 
+  {% if site.posts.size == 0 %} 
     <p>No updates yet</p>
   {% endif %}
+  
   {% for post in paginator.posts %}
   <div class="u-clearfix u-expanded-width u-layout-wrap u-updates-layout-wrap-1">
     <div class="u-layout">
