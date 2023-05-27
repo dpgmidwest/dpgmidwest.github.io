@@ -79,6 +79,9 @@
 .u-home-section-1 .u-home-text-1 {
   font-weight: 700;
   font-size: 2.25rem;
+  overflow-wrap: break-word;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 91px 0 0;
 }
 
@@ -102,7 +105,10 @@
   font-weight: 700;
   font-size: 1.25rem;
   letter-spacing: 2px;
+  overflow-wrap: break-word;
+  padding-left: 20px;
   margin: 60px 0 0;
+  padding-right: 20px;
 }
 
 .u-home-section-2 {
