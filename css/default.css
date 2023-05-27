@@ -57,6 +57,10 @@
   }
 }
 
+.u-contr-section-1 {
+  min-height: calc(100vh - 229px - 233px - 46px);
+}
+
 /******* Begin home.html Custom CSS ********/
 
 .u-home-section-1 {
