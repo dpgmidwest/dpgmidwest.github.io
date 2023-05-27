@@ -13,7 +13,7 @@
   margin: 187px auto 60px;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .u-pnf-section-1 .u-pnf-sheet-1 {
     min-height: 439px;
   }
@@ -35,7 +35,7 @@
   .u-pnf-section-1 .u-pnf-sheet-1 {
     min-height: 159px;
   }
-}
+} */
 
 .u-contact-section-1 .u-contact-sheet-1 {
   min-height: 400px;
@@ -68,7 +68,7 @@
   margin: 89px auto 60px;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .u-contr-section-1 .u-contr-text-1 {
     margin-right: 216px;
     margin-left: 224px;
@@ -94,7 +94,7 @@
     margin-right: 0;
     margin-left: 0;
   }
-}
+} */
 
 .u-home-section-1 {
   background-image: none;
@@ -143,7 +143,7 @@
   margin: 60px 0 0;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
    .u-home-section-1 {
     min-height: 592px;
   }
@@ -151,9 +151,9 @@
   .u-home-section-1 .u-home-layout-cell-1 {
     min-height: 435px;
   }
-}
+} */
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
    .u-home-section-1 {
     min-height: 484px;
   }
@@ -177,9 +177,9 @@
   .u-home-section-1 .u-home-btn-1 {
     margin-top: -100px;
   }
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
    .u-home-section-1 {
     min-height: 955px;
   }
@@ -201,9 +201,9 @@
   .u-home-section-1 .u-home-btn-1 {
     margin-top: -60px;
   }
-}
+} */
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
    .u-home-section-1 {
     min-height: 686px;
   }
@@ -223,7 +223,9 @@
   .u-home-section-1 .u-home-btn-1 {
     margin-top: -100px;
   }
-} .u-home-section-2 {
+} */
+
+.u-home-section-2 {
   background-image: url("../images/moshed-trees23.png");
   background-position: 50% 50%;
 }
@@ -237,7 +239,7 @@
   margin: 35px 102px 60px 0;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .u-home-section-2 .u-home-sheet-1 {
     min-height: 158px;
   }
@@ -245,7 +247,9 @@
   .u-home-section-2 .u-home-text-1 {
     margin-right: 0;
   }
-} .u-home-section-3 {
+} */
+
+.u-home-section-3 {
   background-image: none;
 }
 
@@ -281,11 +285,13 @@
   padding: 0;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .u-home-section-3 .u-home-text-4 {
     margin-left: 0;
   }
-}.u-home-section-4 .u-home-sheet-1 {
+} */
+
+.u-home-section-4 .u-home-sheet-1 {
   min-height: 92px;
 }
 
@@ -365,7 +371,7 @@
 .u-home-section-5 .u-home-text-6 {
   margin: 20px 20px 0 0;
 }
-
+/* 
 @media (max-width: 1199px) {
    .u-home-section-5 {
     min-height: 404px;
@@ -489,7 +495,7 @@
   .u-home-section-5 .u-home-image-2 {
     min-height: 147px;
   }
-}
+} */
 
 .u-updates-section-1 {
   background-image: none;
@@ -576,7 +582,7 @@
   margin: 20px 20px 0 0;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
    .u-updates-section-2 {
     min-height: 404px;
   }
@@ -699,4 +705,4 @@
   .u-updates-section-2 .u-updates-image-2 {
     min-height: 147px;
   }
-}
+} */
