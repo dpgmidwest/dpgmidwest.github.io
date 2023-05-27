@@ -1,75 +1,16 @@
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    {% if site.RSS %}
-                    <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                            <span>
-                                <i class="ico-rss"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.twitter_username %}
-                    <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
-                            <span>
-                                <i class="ico-twitter"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.instagram_username %}
-                    <li>
-                        <a target="_blank" href="https://instagram.com/{{ site.instagram_username }}">
-                            <span>
-                                <i class="ico-instagram"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.mastodon_username %}
-                    <li>
-                        <a target="_blank" href="{{ site.mastodon_username }}">
-                            <span>
-                                <i class="ico-mastodon"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-                <p class="copyright text-muted">
-                    Copyright &copy; Dual Power Midwest {{ site.time | date: '%Y' }}
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!-- TODO: Work to remove JQuery and to refab bootstrap -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/clean-blog.js " | prepend: site.baseurl }}"></script>
-
-<!-- async load function -->
-<script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-
-<!--fastClick.js -->
-<script>
-    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
-        var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
-    })
-</script>
+<footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-6649"><div class="u-clearfix u-sheet u-sheet-1">
+    <p class="u-text u-text-palette-5-light-3 u-text-1">Dual Power Midwest&nbsp;<span class="u-file-icon u-icon u-text-white u-icon-1"><img src="images/9058847-0b95502d.png" alt=""></span> &nbsp;2023&nbsp;<br>
+      <span style="font-size: 14px;">copyleft, all wrongs reserved</span>
+      <br>
+      <br>
+    </p>
+    <p class="u-text u-text-2">
+      <a href="https://opencollective.com/dual-power-gathering/events/dual-power-midwest-e5e522c8" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-4-light-1 u-btn-1" target="_blank"><span class="u-file-icon u-icon u-text-palette-4-light-1 u-icon-2"><img src="images/2967188-3c004ad6.png" alt=""></span>&nbsp;open collective
+      </a>
+      <br>
+    </p>
+    <p class="u-text u-text-3">
+      <a href="mailto:dpgmidwest@protonmail.com" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-4-light-1 u-btn-2"> &nbsp;dpgmidwest@protonmail.com</a>
+      <br>
+    </p>
+  </div></footer>
