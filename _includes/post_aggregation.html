@@ -1,0 +1,25 @@
+{% for post in paginator.posts %}
+    {% if post.status == "published" %}
+    <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+        <div class="u-layout-row">
+            <div class="u-container-style u-image u-layout-cell u-size-30 u-home-image-1" data-image-width="400" data-image-height="265">
+            <div class="u-container-layout u-home-container-layout-1"></div>
+            </div>
+            <div class="u-align-left u-container-style u-layout-cell u-size-30 u-home-layout-cell-2">
+            <div class="u-container-layout u-container-layout-2">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <h2 class="u-text u-home-text-1">{{ post.title }}</h2>
+                </a>
+                <p class="u-text u-home-text-2">Posted on {{ post.date | date: "%B %-d, %Y" }} </p>
+                <p class="u-text u-home-text-3">{{ post.content | strip_html | truncate:200 }}</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    {% endif %}
+{% endfor %}
+{% if site.posts.size == 0 %} 
+    <p>No updates yet</p>
+{% endif %}
