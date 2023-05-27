@@ -4,11 +4,16 @@
 {% include head.html %}
 
 <body class="u-body u-xl-mode" data-lang="en">
+    <!-- Dummy script to circumvent firefox FOUC bug-->
+    <script>0</script>
 
+    <!-- Navigation -->
     {% include nav.html %}
 
+    <!-- Page Content -->
     {{ content }}
 
+    <!-- Footer -->
     {% include footer.html %}
 
 </body>
