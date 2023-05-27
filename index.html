@@ -7,6 +7,7 @@ title: "Home"
         <h1 class="u-align-center u-text u-home-text-1">updates</h1>
     </div>
 </section>
+
 <section class="u-clearfix u-valign-middle u-home-section-5">
   {% for post in paginator.posts %}
     {% if post.status == "published" %}
@@ -30,7 +31,7 @@ title: "Home"
       </div>
     {% endif %}
   {% endfor %}
+  {% if site.posts.size == 0 %} 
+    <p>No updates yet</p>
+  {% endif %}
 </section>
-{% if site.posts.size == 0 %} 
-  <p>No updates yet</p>
-{% endif %}
