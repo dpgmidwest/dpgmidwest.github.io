@@ -1,8 +1,7 @@
 title: Dual Power Gathering Midwest
 favicon: https://dpgmidwest.org/favicons/favicon.ico
-logo: /images/logo-dark-shadow-line.png
-card_image: /images/logo-dark-shadow-line.png
-email: "midwestdualpower@protonmail.com"
+logo: "/images/logo-dark-shadow-line.png"
+card_image: "/images/logo-dark-shadow-line.png"
 SEOTitle: "Dual Power Gathering Midwest"
 description: "2023 Dual Power Gathering in the midwest region (great lakes and great plains)"
 url: "http://www.dpgmidwest.org"
@@ -12,7 +11,6 @@ featured-tags: False
 featured-condition-size: 100
 baseurl: ""
 RSS: true
-github_username: dpgmidwest
 permalink: pretty
 paginate: 3
 paginate_path: "/:num/"
@@ -24,3 +22,9 @@ highlighter: rouge
 kramdown:
   input: GFM
 chrome-tab-theme-color: "#000000"
+email: "midwestdualpower@protonmail.com"
+mastodon: "dpgmidwest@kolektiva.social"
+mastodon_link: "https://kolektiva.social/@dpgmidwest"
+github_username: dpgmidwest
+instagram: "dpgmidwest@kolektiva.social"
+mastodon_link: "https://kolektiva.social/@dpgmidwest"
