@@ -449,7 +449,7 @@
 
 .u-menu-orient {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(5, 20%);
   width: 100vw;
   padding: 10px;
 }
