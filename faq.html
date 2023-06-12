@@ -3,6 +3,9 @@ layout: page
 title: FAQ
 nav: FAQ
 permalink: /faq.html
+sections:
+- what-is-dual-power
+- what-is-the-event
 ---
           
 <section class="u-clearfix u-palette-1-dark-1 u-updates-section-1">
@@ -13,6 +16,11 @@ permalink: /faq.html
 
 <section class="u-clearfix u-valign-middle u-updates-section-2">
     <div style="margin: 50px;">
+      {% for section in page.sections %}
+        {% capture info %}{% include_relative faq/{{ section }}.md %}{% endcapture %}
+        {{ info | markdownify }}
+      {% endfor %}
+
       {% capture section %}{% include_relative faq/what-is-dual-power.md %}{% endcapture %}
       {{ section | markdownify }}
 
@@ -20,10 +28,5 @@ permalink: /faq.html
 
       {% capture section %}{% include_relative faq/what-is-the-event.md %}{% endcapture %}
       {{ section | markdownify }}
-
-      <!-- test -->
-      {% for item in ['section1', 'section2']%}
-      <p>{{ item }}</p>
-      {% endfor %}
     </div>
 </section>
