@@ -4,8 +4,18 @@ title: FAQ
 nav: FAQ
 permalink: /faq.html
 sections:
-- what-is-dual-power
-- what-is-the-event
+- dual-power
+- our-values
+- the-event
+- format
+- location
+- accessibility
+- kids
+- pets
+- last-year
+- ticket
+- endorsements
+- outside-midwest
 ---
           
 <section class="u-clearfix u-palette-1-dark-1 u-updates-section-1">
@@ -17,10 +27,10 @@ sections:
 <section class="u-clearfix u-valign-middle u-updates-section-2">
     <div style="margin: 50px;">
       {% for section in page.sections %}
-        <div id="{{ section }}">
+        <details id="{{ section }}">
           {% capture info %}{% include_relative faq/{{ section }}.md %}{% endcapture %}
           {{ info | markdownify }}
-        </div>
+        </details>
         <hr>
       {% endfor %}
     </div>

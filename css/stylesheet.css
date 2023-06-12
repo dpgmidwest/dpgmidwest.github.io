@@ -349,6 +349,17 @@ html {
 body {
   margin: 0;
 }
+summary {
+  font-size: 2.25rem;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Titillium Web',sans-serif;
+  color: #d26161;
+  cursor: pointer;
+}
 article,
 aside,
 details,
@@ -359,8 +370,7 @@ header,
 main,
 menu,
 nav,
-section,
-summary {
+section {
   display: block;
 }
 audio,
@@ -27542,7 +27552,7 @@ section.u-palette-1-base:before,
 .u-field-input.u-palette-1-base,
 .u-button-style.u-palette-1-base,
 .u-button-style.u-palette-1-base[class*="u-border-"] {
-  color: #d9cdcd !important;
+  color: #ffffff !important;
   background-color: #bf404c !important;
 }
 .u-button-style.u-palette-1-base:hover,
@@ -27555,7 +27565,7 @@ section.u-palette-1-base:before,
 .u-button-style.u-button-style.u-palette-1-base[class*="u-border-"].active,
 li.active > .u-button-style.u-button-style.u-palette-1-base,
 li.active > .u-button-style.u-button-style.u-palette-1-base[class*="u-border-"] {
-  color: #d9cdcd !important;
+  color: #ffffff !important;
   background-color: #ac3a44 !important;
 }
 .u-hover-palette-1-base:hover,
