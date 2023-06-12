@@ -1,6 +1,12 @@
-{% for post in site.categories.faq %}
+{% assign faq_sections = site.posts |  where_exp: "type", "faq" %}
+{% for post in faq_sections %}
     <div class="faq-box">
         <h2>{{ post.title }}</h2><br>
         <p>{{ post.content }}</p>
     </div>
 {% endfor %}
+
+{% if faq_sections.size == 0 %}
+    <p style="text-align: center;">FAQ in progress. Come back later!</p>
+{% endif %}
+

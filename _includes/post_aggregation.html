@@ -1,5 +1,5 @@
-{% assign publishedPages = site.categories.updates.posts |  where_exp: "status", "published" %}
-{% for post in publishedPages %}
+{% assign updates_pages = site.posts |  where_exp: "type", "updates" %}
+{% for post in updates_pages %}
     <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
         <div class="u-layout-row">
@@ -20,6 +20,6 @@
     </div>
 {% endfor %}
 
-{% if publishedPages.size == 0 %}
+{% if updates_pages.size == 0 %}
     <p style="text-align: center;">No updates yet</p>
 {% endif %}
