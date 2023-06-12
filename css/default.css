@@ -488,17 +488,15 @@
 /******* Begin post.html Custom CSS ********/
 
 .u-blog-section-1 .u-blog-sheet-1 {
-  min-height: 250px;
   padding-top: 50px;
 }
 
 .u-blog-section-2 {
-  padding: 2px 0;
+  padding: 47px 0;
 }
 
 .u-blog-section-1 {
 	margin-top: 0px;
-	min-height: 200px;
 	height: auto;
 	grid-gap: 22px;
 	padding: 30px 20px 50px 20px;
