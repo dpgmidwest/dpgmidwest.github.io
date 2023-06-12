@@ -16,7 +16,14 @@ permalink: /faq.html
       {% capture section %}{% include_relative faq/what-is-dual-power.md %}{% endcapture %}
       {{ section | markdownify }}
 
+      <hr>
+
       {% capture section %}{% include_relative faq/what-is-the-event.md %}{% endcapture %}
       {{ section | markdownify }}
+
+      <!-- test -->
+      {% for item in ['section1', 'section2']%}
+      <p>{{ item }}</p>
+      {% endfor %}
     </div>
 </section>
