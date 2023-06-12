@@ -16,13 +16,6 @@ sections:
 
 <section class="u-clearfix u-valign-middle u-updates-section-2">
     <div style="margin: 50px;">
-      <!-- Table of contents -->
-      {% for section in page.sections %}
-        {% capture info %}{% include_relative faq/{{ section }}.md %}{% endcapture %}
-        <a href="#{{ section }}">{{ info.title }}</a> | 
-      {% endfor %}
-
-      <!-- Actual Sections -->
       {% for section in page.sections %}
         <div id="{{ section }}">
           {% capture info %}{% include_relative faq/{{ section }}.md %}{% endcapture %}
