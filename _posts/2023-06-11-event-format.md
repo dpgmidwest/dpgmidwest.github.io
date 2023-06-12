@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Gathering's Structure
-thumbnail: /images/leung-jason-unsplash-filtered.png
+thumbnail: /images/ricardo-gomez-angel-ZUwXnS7K7Ok-unsplash.jpg
 ---
 
 *Note: Unconferences may evoke imagery of corporate seminars. Dual Power gatherings hope to distance themselvs from corporate-speak, and you may notice some terminology changes in the future as organizers and attendees develop the format into more explicitly autonomous structures. We don't have a better word yet, so we will continue with unconference for the time being. This article will likewise be developed as we build theories around the concept*
