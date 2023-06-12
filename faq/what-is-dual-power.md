@@ -1,4 +1,8 @@
-## What is dual power?
+---
+title: What is dual power?
+---
+
+## {{ page.title }}
 
 Dual power is a strategy that builds liberated spaces and creates social structures grounded in direct democracy. Together these spaces and durable organizations expand into the ever widening formation of a "new world in the shell of the old." As movements and communities grow more powerful, they can engage in ever larger confrontations and disruptions against the ruling class order—so that they may ultimately contest the legitimacy of the institutions of capitalist society.
 
