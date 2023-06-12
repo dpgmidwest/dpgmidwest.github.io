@@ -16,7 +16,7 @@
     <meta name="AdsBot-Google" content="noindex"> <!-- Disallowing ads bots -->
 
     <!-- Link Preview Information -->
-    <meta property="og:title" content="{% if page.tabTitle %}{{ page.tabTitle }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.SEOTitle }}{% endif %}{% endif %}">
+    <meta property="og:title" content="{% if page.tabTitle %}{{ page.tabTitle }}{% else %}{% if page.title %}{{ page.title }} | {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}{% endif %}">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:locale" content="en_EN">
