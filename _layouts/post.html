@@ -15,17 +15,19 @@ layout: default
 
 <!-- Post Header Content -->
 {% if page.header-img %}
-<section id="header-img" class="u-align-left u-black u-clearfix u-blog-section-1">
+<section id="header-img" class="u-align-lef u-clearfix u-blog-section-1">
     <div class="u-clearfix u-sheet u-blog-sheet-1"></div>
 </section>
 {% endif %}
-<section class="u-align-left u-black u-clearfix u-blog-section-1">
+<section class="u-align-left u-clearfix u-blog-section-1">
     <div class="u-clearfix u-sheet u-blog-sheet-1">
         <h1 class="u-text u-title u-text-default u-text-palette-5-light-3 u-title u-blog-text-1">{{ page.title }}</h1>
         <h2 class="u-subtitle u-text u-blog-text-2">{{ page.subtitle }}</h2>
         <p class="u-text u-text-palette-4-light-3 u-blog-text-3">Posted on {{ page.date | date: "%B %-d, %Y" }}</p>
     </div>
 </section>
+
+<hr>
 
 <!-- Post Content -->
 <section class="u-clearfix u-container-align-center u-blog-section-2" id="sec-9bc2">
