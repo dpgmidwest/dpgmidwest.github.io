@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The format of the gathering
+title: The Gathering's Structure
 thumbnail: /images/leung-jason-unsplash-filtered.png
 ---
 
