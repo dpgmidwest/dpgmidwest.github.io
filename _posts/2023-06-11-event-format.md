@@ -4,13 +4,13 @@ title: The Gathering's Structure
 thumbnail: /images/ricardo-gomez-angel-ZUwXnS7K7Ok-unsplash.jpg
 ---
 
-*Note: Unconferences may evoke imagery of corporate seminars. Dual Power gatherings hope to distance themselvs from corporate-speak, and you may notice some terminology changes in the future as organizers and attendees develop the format into more explicitly autonomous structures. We don't have a better word yet, so we will continue with unconference for the time being. This article will likewise be developed as we build theories around the concept*
-
 An unconference is a participant-driven meeting. The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization.
 
 Typically at an unconference, the agenda is created by the attendees at the beginning of the meeting. Anyone who wants to initiate a discussion on a topic can claim a time and a space. Some unconference sessions are led by the participant who suggested its topic; other unconference sessions are basically open discussions of the session topic.
 
 An "unconference" is particularly useful when participants generally have a high level of expertise or knowledge in the field the conference convenes to discuss.
+
+*Note: Unconferences may evoke imagery of corporate seminars. Dual Power gatherings hope to distance themselvs from corporate-speak, and you may notice some terminology changes in the future as organizers and attendees develop the format into more explicitly autonomous structures. We don't have a better word yet, so we will continue with unconference for the time being. This article will likewise be developed as we build theories around the concept*
 
 Intro Videos (total duration is 12 minutes and 6 seconds):
 
