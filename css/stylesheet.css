@@ -41758,6 +41758,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
  .u-footer {
   background-image: none;
+  padding-bottom: 40px;
 }
 
 .u-footer .u-sheet-1 {
@@ -41791,7 +41792,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-3 {
-  margin: 0 0 55px;
+  margin: 0 0 15px;
 }
 
 .u-footer .u-btn-2 {
