@@ -2,9 +2,15 @@
     <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
         <div class="u-layout-row">
-            <div class="u-container-style u-image u-layout-cell u-size-30 u-home-image-1" data-image-width="400" data-image-height="265">
-            <div class="u-container-layout u-home-container-layout-1"></div>
+            {% if post.thumbnail %}
+            <div class="u-container-style u-image u-layout-cell u-size-30 u-home-image" data-image-width="400" data-image-height="265">
+                <div class="u-container-layout u-home-container-layout-1"></div>
             </div>
+            {% else %}
+            <div class="u-container-style u-image u-layout-cell u-size-30 u-home-image u-home-placeholder" data-image-width="400" data-image-height="265">
+                <div class="u-container-layout u-home-container-layout-1"></div>
+            </div>
+            {% endif %}
             <div class="u-align-left u-container-style u-layout-cell u-size-30 u-home-layout-cell-2">
             <div class="u-container-layout u-container-layout-2">
                 <a href="{{ post.url | prepend: site.baseurl }}">
