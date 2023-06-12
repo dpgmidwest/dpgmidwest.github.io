@@ -12507,6 +12507,10 @@ section.u-image:not(.u-hover-box),
   min-height: fit-content;
   max-width: 100%;
 }
+.u-updates-section-2 .u-layout-row {
+  border-top: solid;
+  border-bottom: solid;
+}
 .u-layout-cell {
   position: relative;
   display: flex;
