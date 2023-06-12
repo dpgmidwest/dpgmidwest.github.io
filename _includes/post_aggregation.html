@@ -3,7 +3,9 @@
         <div class="u-layout">
         <div class="u-layout-row">
             {% if post.thumbnail %}
-            <div class="u-container-style u-image u-layout-cell u-size-30 u-home-image" data-image-width="400" data-image-height="265">
+            <div class="u-container-style u-image u-layout-cell u-size-30 u-home-image"
+                data-image-width="400" data-image-height="265"
+                style="background-image: url('{{ post.thumbnail | prepend: site.baseurl }}');">
                 <div class="u-container-layout u-home-container-layout-1"></div>
             </div>
             {% else %}
