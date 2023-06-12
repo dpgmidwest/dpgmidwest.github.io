@@ -1,5 +1,5 @@
-{% assign updates_pages = paginator.posts |  where_exp: "type", "updates" %}
-{% for post in updates_pages %}
+{% assign updatePages = paginator.posts |  where_exp: "category", "updates" %}
+{% for post in updatePages %}
     <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
         <div class="u-layout-row">
@@ -20,6 +20,6 @@
     </div>
 {% endfor %}
 
-{% if updates_pages.size == 0 %}
+{% if updatePages.size == 0 %}
     <p style="text-align: center;">No updates yet</p>
 {% endif %}

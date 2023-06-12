@@ -1,12 +1,11 @@
-{% assign faq_sections = paginator.posts |  where_exp: "type", "faq" %}
-{% for post in faq_sections %}
+{% assign faqSections = paginator.posts |  where_exp: "category", "faq" %}
+{% for post in faqSections %}
     <div class="faq-box">
-        <h2>{{ post.title }}</h2><br>
+        <h2>{{ post.title }}</h2>
         <p>{{ post.content }}</p>
     </div>
 {% endfor %}
 
-{% if faq_sections.size == 0 %}
+{% if faqSections.size == 0 %}
     <p style="text-align: center;">FAQ in progress. Come back later!</p>
 {% endif %}
-
