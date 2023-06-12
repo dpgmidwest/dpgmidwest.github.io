@@ -12,7 +12,7 @@ featured-condition-size: 100
 baseurl: ""
 RSS: true
 permalink: pretty
-paginate: 3
+paginate: 10
 paginate_path: "/:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: false
