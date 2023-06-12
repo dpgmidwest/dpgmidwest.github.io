@@ -1,4 +1,4 @@
-{% assign publishedPages = site.categories.updates |  where_exp: "status", "published" %}
+{% assign publishedPages = site.categories.updates.posts |  where_exp: "status", "published" %}
 {% for post in publishedPages %}
     <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
