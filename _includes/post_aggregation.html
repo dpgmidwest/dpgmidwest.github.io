@@ -1,4 +1,4 @@
-{% assign updates_pages = site.posts |  where_exp: "type", "updates" %}
+{% assign updates_pages = paginator.posts |  where_exp: "type", "updates" %}
 {% for post in updates_pages %}
     <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">

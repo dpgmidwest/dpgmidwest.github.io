@@ -1,4 +1,4 @@
-{% assign faq_sections = site.posts |  where_exp: "type", "faq" %}
+{% assign faq_sections = paginator.posts |  where_exp: "type", "faq" %}
 {% for post in faq_sections %}
     <div class="faq-box">
         <h2>{{ post.title }}</h2><br>
