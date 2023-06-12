@@ -1,7 +1,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <title>{% if page.tabTitle %}{{ page.tabTitle }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.SEOTitle }}{% endif %}{% endif %}</title>
+    <title>{% if page.tabTitle %}{{ page.tabTitle }}{% else %}{% if page.title %}{{ page.title }} | {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}{% endif %}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Fonts (TODO: Move from google fonts for privacy purposes)-->
