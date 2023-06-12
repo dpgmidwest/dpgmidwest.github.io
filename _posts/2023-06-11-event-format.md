@@ -18,27 +18,13 @@ An "unconference" is particularly useful when participants generally have a high
 
 Total duration of videos is 12 minutes and 6 seconds
 
-### What is an Unconference? 
+[What is an Unconference?](https://www.youtube.com/watch?v=8HM5Q3ZkKSg) (1:19)
 
-[Original Link](https://www.youtube.com/watch?v=8HM5Q3ZkKSg) (1:19)
+[Norms and Tips](https://www.youtube.com/watch?v=iUEt0xOysr4) (2:50)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8HM5Q3ZkKSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[How to run an Unconference](https://youtu.be/rktd0nhV-mU) (4:29)
 
-### Norms and Tips
-
-[Original Link](https://www.youtube.com/watch?v=iUEt0xOysr4) (2:50)
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iUEt0xOysr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-### How to run an Unconference
-[Original Link](https://youtu.be/rktd0nhV-mU) (4:29)
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rktd0nhV-mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-### 7 tips in Hosting an Engaging Unconference
-[Original Link](https://www.youtube.com/watch?v=iFCiOVVOEPE) (3:28)
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iFCiOVVOEPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[7 tips in Hosting an Engaging Unconference](https://www.youtube.com/watch?v=iFCiOVVOEPE) (3:28)
 
 ---
 
