@@ -19,14 +19,7 @@ sections:
       {% for section in page.sections %}
         {% capture info %}{% include_relative faq/{{ section }}.md %}{% endcapture %}
         {{ info | markdownify }}
+        <hr>
       {% endfor %}
-
-      {% capture section %}{% include_relative faq/what-is-dual-power.md %}{% endcapture %}
-      {{ section | markdownify }}
-
-      <hr>
-
-      {% capture section %}{% include_relative faq/what-is-the-event.md %}{% endcapture %}
-      {{ section | markdownify }}
     </div>
 </section>
