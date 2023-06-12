@@ -1,6 +1,7 @@
 ---
 layout: default
 title: What is the Dual Power Gathering event?
+status: published
 ---
 
 The Dual Power Gatherings are events meant to bring together those who want to turn momentum into action. Dual Power is not a centralized organization, but it is an informal confederation of collectives working towards the goal of bringing people into conversation and building relationships of solidarity.
