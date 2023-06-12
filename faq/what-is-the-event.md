@@ -1,3 +1,5 @@
+<div markdown="1">
+
 ## What is the Dual Power Gathering event?
 
 The Dual Power Gatherings are events meant to bring together those who want to turn momentum into action. Dual Power is not a centralized organization, but it is an informal confederation of collectives working towards the goal of bringing people into conversation and building relationships of solidarity.
@@ -27,3 +29,5 @@ We are seeking to bring together people and organizations who have been on the f
 - Mental Health cooperatives/collectives
 
 We also welcome those who are not currently affiliated with an organization. We want you here if you are dedicated to a world free of all forms of oppressive hierarchy.
+
+</div>
