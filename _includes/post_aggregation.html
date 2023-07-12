@@ -1,28 +1,19 @@
 {% for post in site.posts %}
-    <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-        <div class="u-layout">
-        <div class="u-layout-row">
-            {% if post.thumbnail %}
-            <div class="u-container-style u-image u-layout-cell u-size-30 u-home-image"
-                data-image-width="400" data-image-height="265"
-                style="background-image: url('{{ post.thumbnail | prepend: site.baseurl }}');">
-                <div class="u-container-layout u-home-container-layout-1"></div>
-            </div>
+    <div class="{% if post.thumbnail %}post{% else %}post-no-img{% endif %}">
+        {% if post.thumbnail %}
+            <div class="post-image" style="background-image: url('{{ post.thumbnail | prepend: site.baseurl }}');"></div>
+        {% endif %}
+        <div class="preview-content">
+            <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="preview-headline">{{ post.title }}</h2></a>
+            <p class="preview-meta">
+                {% if post.icon %}<i class="ico-{{ post.icon }}"></i>
+                {% else %}<i class="ico-pencil"></i>{% endif %} &middot; Posted on {{ post.date | date: "%B %-d, %Y" }}
+            </p>
+            {% if post.subtitle %}
+                <p class="preview-summary">{{ post.subtitle }}</p>
             {% else %}
-            <div class="u-container-style u-image u-layout-cell u-size-30 u-home-image u-home-placeholder" data-image-width="400" data-image-height="265">
-                <div class="u-container-layout u-home-container-layout-1"></div>
-            </div>
+                <p class="preview-summary" aria-hidden="true">{{ post.content | strip_html | truncate:200 }}</p>
             {% endif %}
-            <div class="u-align-left u-container-style u-layout-cell u-size-30 u-home-layout-cell-2">
-            <div class="u-container-layout u-container-layout-2">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <h2 class="u-text u-home-text-1">{{ post.title }}</h2>
-                </a>
-                <p class="u-text u-home-text-2">Posted on {{ post.date | date: "%B %-d, %Y" }} </p>
-                <p class="u-text u-home-text-3">{{ post.content | strip_html | truncate:200 }}</p>
-            </div>
-            </div>
-        </div>
         </div>
     </div>
 {% endfor %}

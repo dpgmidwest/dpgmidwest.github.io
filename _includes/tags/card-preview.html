@@ -1,0 +1,33 @@
+<!-- Card preview information for link sharing -->
+<meta property="og:type" content="{{ site.card-type }}">
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:title" content="
+    {% if page.tab-title %}{{ page.tab-title }}
+    {% else %}{% if page.title %}{{ page.title }} | {{ site.seo-title }}
+    {% else %}{{ site.seo-title }}{% endif %}{% endif %}
+">
+<meta property="og:description" content="
+    {% if page.seo-description %}{{ page.seo-description }}
+    {% else %}{{ site.seo-description }}{% endif %}
+}">
+<meta property="og:image" content="
+    {% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl }}
+    {% else %}{{ site.thumbnail | prepend: site.baseurl }}{% endif %}
+">
+
+<meta name="twitter:card" content="{{ site.card-social-type }}">
+<meta property="twitter:domain" content="{{ site.domain }}">
+<meta property="twitter:url" content="{{ site.baseurl }}">
+<meta name="twitter:title" content="
+    {% if page.tab-title %}{{ page.tab-title }}
+    {% else %}{% if page.title %}{{ page.title }} | {{ site.seo-title }}
+    {% else %}{{ site.seo-title }}{% endif %}{% endif %}
+">
+<meta name="twitter:description" content="
+    {% if page.seo-description %}{{ page.seo-description }}
+    {% else %}{{ site.seo-description }}{% endif %}
+}">
+<meta name="twitter:image" content="
+    {% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl }}
+    {% else %}{{ site.thumbnail | prepend: site.baseurl }}{% endif %}
+">

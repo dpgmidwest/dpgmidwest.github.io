@@ -1,37 +1,27 @@
 ---
 layout: default
 ---
-<!-- Post Header Image -->
-<style type="text/css">
-    #header-img {
-        position: relative;
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% endif %}');
-        box-shadow: inset 0 0 15px black;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-</style>
 
-<!-- Post Header Content -->
-{% if page.header-img %}
-<section id="header-img" class="u-align-lef u-clearfix u-blog-section-1">
-    <div class="u-clearfix u-sheet u-blog-sheet-1"></div>
-</section>
-{% endif %}
-<section class="u-align-left u-clearfix u-blog-section-1">
-    <div class="u-clearfix u-sheet u-blog-sheet-1">
-        <h1 class="u-text u-title u-text-default u-text-palette-5-light-3 u-title u-blog-text-1">{{ page.title }}</h1>
-        <h2 class="u-subtitle u-text u-blog-text-2">{{ page.subtitle }}</h2>
-        <p class="u-text u-text-palette-4-light-3 u-blog-text-3">Posted on {{ page.date | date: "%B %-d, %Y" }}</p>
+<section class="post-head-container">
+    <div class="inner-post-container">
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.subtitle %}
+            <p class="post-subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+        <p class="post-meta">
+            {% if post.icon %}<i class="ico-{{ post.icon }}"></i>
+            {% else %}<i class="ico-pencil"></i>{% endif %} &middot; 
+            Posted on {{ page.date | date: "%B %-d, %Y" }}
+        </p>
     </div>
 </section>
 
 <hr>
 
 <!-- Post Content -->
-<section class="u-clearfix u-container-align-center u-blog-section-2" id="sec-9bc2">
-    <div class="u-clearfix u-sheet u-blog-sheet-1">
-        {{ content }}
-    </div>
+<section class="inner-post-container">
+    {{ content }}
+</section>
+<section class="post-tail">
+    <!-- dead space + future pagination -->
 </section>

@@ -10,9 +10,8 @@ Typically at an unconference, the agenda is created by the attendees at the begi
 
 An "unconference" is particularly useful when participants generally have a high level of expertise or knowledge in the field the conference convenes to discuss.
 
----
 
-## Intro Videos
+### Intro Videos
 
 Total duration of videos is 12 minutes and 6 seconds
 
@@ -24,9 +23,8 @@ Total duration of videos is 12 minutes and 6 seconds
 
 [7 tips in Hosting an Engaging Unconference](https://www.youtube.com/watch?v=iFCiOVVOEPE) (3:28)
 
----
 
-## Facilitation styles
+### Facilitation styles
 
 An unconference can be conducted using a number of facilitation styles. Some of these are:
     

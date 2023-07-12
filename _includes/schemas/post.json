@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ post.url | prepend: site.baseurl  }}"
+  },
+  "headline": "{{ post.title }}",
+  "image": "{{ post.thumbnail }}",  
+  "author": {
+    "@type": "Organization",
+    "name": "Dual Power Gathering Midwest"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dual Power Gathering Midwest",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo }}"
+    }
+  },
+  "datePublished": "{{ post.date | date: "%Y-%m-%d" }}"
+}
+    
+    

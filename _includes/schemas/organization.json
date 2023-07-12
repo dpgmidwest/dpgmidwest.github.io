@@ -1,0 +1,17 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "{{ site.schema-type }}",
+    "name": "{{ site.seo-title }}",
+    "description": "{{ site.seo-description }}",
+    "logo": "{{ site.logo | prepend: site.baseurl }}",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "{{ site.email }}",
+        "availableLanguage": "{{ site.language }}"
+    },
+    "sameAs": [
+        "https://github.com/{{ site.github_name }}",
+        "https://{{ site.mastodon_server }}/@{{ site.mastodon_name }}",
+        "https://www.instagram.com/{{ site.instagram }}"
+    ]
+}

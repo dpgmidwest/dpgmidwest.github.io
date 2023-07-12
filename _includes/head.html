@@ -1,48 +1,17 @@
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <title>{% if page.tabTitle %}{{ page.tabTitle }}{% else %}{% if page.title %}{{ page.title }} | {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}{% endif %}</title>
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-    <!-- Fonts (TODO: Move from google fonts for privacy purposes)-->
-    <!-- <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900">
-     -->
-    <!-- Metadata -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords"  content="{{ site.keyword }}">
-    <meta name="theme-color" content="#bf404c">
-    <meta name="AdsBot-Google" content="noindex"> <!-- Disallowing ads bots -->
+    <link rel="icon" type="image/x-icon" href="{{ site.favicon | prepend: site.baseurl }}">
 
-    <!-- Link Preview Information -->
-    <meta property="og:title" content="{% if page.tabTitle %}{{ page.tabTitle }}{% else %}{% if page.title %}{{ page.title }} | {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}{% endif %}">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="{{ site.description }}">
-    <meta property="og:locale" content="en_EN">
-    <meta property="og:image" content="{{ site.card_image | prepend: site.baseurl }}">
-
-    <meta name="twitter:card" content="summary">
-    <meta property="twitter:domain" content="{{ site.domain }}">
-    <meta property="twitter:url" content="{{ site.baseurl }}">
-    <meta name="twitter:title" content="{{ site.SEOTitle }}">
-    <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="{{ site.card_image | prepend: site.baseurl }}">
+    {% include tags/seo.html %}
+    {% include tags/robots.html %}
+    {% include tags/card-preview.html %}
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ site.favicon | prepend: site.baseurl }}">
-    
-    <!-- Styles -->
     <link rel="stylesheet" href="{{ "/css/stylesheet.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/fonts.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/icons.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/default.css" | prepend: site.baseurl }}">
 
-    <!-- Schema -->
-    <script type="application/ld+json">{
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "",
-        "logo": "images/logo-dark-shadow-line.png"
-    }</script>
+    <script type="application/ld+json">{% include schemas/organization.json %}</script>
 </head>

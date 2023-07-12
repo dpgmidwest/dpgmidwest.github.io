@@ -1,29 +1,45 @@
+
 title: Dual Power Gathering Midwest
-favicon: https://dpgmidwest.org/favicons/favicon.ico
+domain: dpgmidwest.org
+baseurl: "https://www.dpgmidwest.org/"
 logo: "/images/logo-dark-shadow-line.png"
-card_image: "/images/logo-dark-shadow-line.png"
-SEOTitle: "Dual Power Gathering Midwest"
-description: "2023 Dual Power Gathering in the midwest region (great lakes and great plains)"
-url: "http://www.dpgmidwest.org"
-domain: "dpgmidwest.org"
-github_repo: "https://github.com/dpgmidwest/dpgmidwest.github.io"
-featured-tags: False
-featured-condition-size: 100
-baseurl: ""
+language: "English"
 RSS: true
-permalink: pretty
-paginate: 10
-paginate_path: "/:num/"
+
+# Search Engine Optimization and Metatag Information
+seo-title: Dual Power Gathering Midwest
+seo-description: 2023 Dual Power Gathering in the midwest region (great lakes and great plains)
+seo-keywords: ""
+favicon: "/images/favicons/favicon.ico"
+thumbnail: "/images/logo-dark-shadow-line.png"
+theme-color: "#000000"
+locale: en_US
+index-policy: index
+adsbot-policy: noindex
+card-type: website
+card-social-type: summary
+
+# Schema
+schema-type: Organization
+
+# Plugins and Jekyll technical stuff
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: false
 plugins: [jekyll-paginate, jekyll-seo-tag]
+anchorjs: false
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-chrome-tab-theme-color: "#000000"
+permalink: pretty
+
+# Pagination
+paginate: 10
+paginate_path: "/:num/"
+
+# Links and socials
 email: "midwestdualpower@protonmail.com"
-mastodon: "dpgmidwest@kolektiva.social"
-mastodon_link: "https://kolektiva.social/@dpgmidwest"
-github_username: dpgmidwest
-instagram: "dualpowergatheringmidwest"
+github_repo: dpgmidwest.github.io
+github_name: dpgmidwest
+instagram: dualpowergatheringmidwest
+mastodon_name: dpgmidwest
+mastodon_server: kolektiva.social

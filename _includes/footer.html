@@ -1,30 +1,15 @@
-<footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-6649"><div class="u-clearfix u-sheet u-sheet-1">
-    <p class="u-text u-text-palette-5-light-3 u-text-1">Dual Power Midwest
-      <span class="u-file-icon u-icon u-text-white u-icon-1">
-        <img src="{{ "/images/9058847-0b95502d.png" | prepend: site.baseurl }}" alt="copy left icon">
-      </span>
-      &nbsp;2023
-      <br>
-      <span style="font-size: 14px;">copyleft, all wrongs reserved</span>
-      <br>
-      <br>
-    </p>
-    <p class="u-text u-text-2">
-      <a href="https://opencollective.com/dual-power-gathering/events/dual-power-midwest-e5e522c8" target="_blank">
-        <span class="u-file-icon u-icon u-text-palette-4-light-1 u-icon-2"><img src="{{ "/images/2967188-3c004ad6.png" | prepend: site.baseurl }}" alt=""></span>&nbsp;open collective
-      </a>
-      <br>
-    </p>
-    <p class="u-text u-text-3">
-      <a href="mailto:{{site.email}}" target="_blank"><i class="ico-envelop"></i> &nbsp;{{site.email}}</a>
-      <br>
-    </p>
-    <p class="u-text u-text-3">
-      <a rel="me" href="{{site.mastodon_link}}" target="_blank"><i class="ico-mastodon"></i>{{site.mastodon}}</a>
-      <br>
-    </p>
-    <p class="u-text u-text-3">
-      <a rel="me" href="https://www.instagram.com/{{site.instagram}}" target="_blank"><i class="ico-instagram"></i> {{site.instagram}}</a>
-    </p>
-  </div>
+<footer>
+  <p>Dual Power Midwest <i class="ico-copyleft"></i> 2023</p>
+  <a href="https://opencollective.com/dual-power-gathering/events/dual-power-midwest-e5e522c8" target="_blank" >
+    <i class="ico-opencollective"></i> open collective <!-- Replace with open collective -->
+  </a>
+  <a href="mailto:{{site.email}}" target="_blank">
+    <i class="ico-envelope"></i> {{site.email}}
+  </a>
+  <a rel="me" href="https://{{ site.mastodon_server }}/@{{ site.mastodon_name }}" target="_blank">
+    <i class="ico-mastodon"></i> {{ site.mastodon_name }}@{{ site.mastodon_server }}
+  </a>
+  <a href="https://www.instagram.com/{{ site.instagram }}" target="_blank">
+    <i class="ico-instagram"></i> {{ site.instagram }}
+  </a>
 </footer>
