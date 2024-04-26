@@ -1,7 +1,7 @@
 
 title: Dual Power Gathering Midwest
 domain: dpgmidwest.org
-baseurl: "https://www.dpgmidwest.org/"
+baseurl: "https://www.dpgmidwest.org"
 logo: "/images/logo-dark-shadow-line.png"
 language: "English"
 RSS: true
