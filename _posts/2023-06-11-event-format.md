@@ -2,6 +2,7 @@
 layout: post
 title: The Gathering's Structure
 thumbnail: /images/ricardo-gomez-angel-ZUwXnS7K7Ok-unsplash.jpg
+seo-description: An unconference is a participant-driven meeting. The term "unconference" applies to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference.
 ---
 
 An unconference is a participant-driven meeting. The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization.

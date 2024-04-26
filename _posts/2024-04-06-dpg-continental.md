@@ -4,7 +4,7 @@ title: Dual Power Gathering 2024
 subtitle: The 2024 continental gathering
 thumbnail: /images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg
 icon: bell
-seo-description: The next Dual Power Gathering will be for the whole continent! It will be held near Portland from July 12-14, 2024.
+seo-description: The next Dual Power Gathering will be held near Portland from July 12-14, 2024.
 ---
 
 The next Dual Power Gathering will be for the whole continent! It will be held near Portland from July 12-14, 2024.
