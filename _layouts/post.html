@@ -9,7 +9,7 @@ layout: default
             <p class="post-subtitle">{{ page.subtitle }}</p>
         {% endif %}
         <p class="post-meta">
-            {% if post.icon %}<i class="ico-{{ post.icon }}"></i>
+            {% if page.icon %}<i class="ico-{{ page.icon }}"></i>
             {% else %}<i class="ico-pencil"></i>{% endif %} &middot; 
             Posted on {{ page.date | date: "%B %-d, %Y" }}
         </p>
